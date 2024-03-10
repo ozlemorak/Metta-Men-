@@ -1,0 +1,1330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+     
+   font-family: "Barlow Condensed", sans-serif;
+   font-size:  20px;
+   font-style: normal;
+   color: white;
+}
+
+
+
+
+
+body{
+    background-color: black;
+    
+    
+}
+/* !ANASAYFA START */
+ /* !HEADER START */
+.header{
+    height: 175px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: sticky;
+    top: 0;
+    border: 3px solid darkred;
+    margin: 10px;
+    border-radius: 10px;
+
+
+}
+
+
+
+
+.logo img{
+    height: 165px;
+}
+
+.header .navbar a{
+    margin: 0 30px;
+    font-size: 17px;
+}
+.header .navbar .active,
+.header .navbar a:hover {
+    border-bottom: 0.1rem solid darkred;
+    
+    padding-bottom: 0.5rem;
+}
+
+/* !HEADER END */
+
+
+
+.anasayfa .content  h3{
+font-size: 75px;
+font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 20px;
+  margin: auto;
+  
+  padding-top: 150px;
+  padding-left: 30px;
+  
+}
+.anasayfa{
+    height: 550px;
+    background :  url(otel\ resim/yemek7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+.anasayfa .content{
+    max-width: 60rem;
+}
+
+.bursa h2{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 300px;
+    font-size: 60px;
+    font-style: normal ;
+    letter-spacing: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+
+  
+
+.bursa1 h3{
+    
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 150;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin:auto;
+    text-align: left;
+    white-space: pre-line;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.resim2{
+    width: 100%;
+    height:0 ;
+    padding-bottom: 60%;
+    background: url(otel\ resim/yemek10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.bursa2{
+    display: flex;
+    align-items: center;
+    border: 3px solid darkred;
+    margin-top: 20px;
+    
+}
+.bursa2 p{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 150;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin:auto;
+    white-space: pre-line;
+    
+   
+
+}
+.bursa2 img{
+  height: 800px;
+  width: 600px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+ 
+  
+}
+.bursa2 img:hover {
+    transform: scale(1.1);
+}
+.iletisim h1{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 150;
+    font-size: 50px;
+    font-style: normal;
+    
+}
+.bilgiler  .iletisim h1::after {
+    
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px; 
+    background-color: whitesmoke; 
+    margin-top: 10px
+    
+
+}
+.bilgiler {
+    display: flex;
+    justify-content: space-between;
+}
+.calisma-saatleri h2{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    font-style: normal;
+    
+}
+.bilgiler  .calisma-saatleri h2::after {
+    
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px; 
+    background-color: whitesmoke; 
+    margin-top: 10px
+    
+
+}
+
+.instagram img{
+    width: 80px ;
+    height: 80px;
+    margin-top: 100px;
+}
+.facebook img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-top: 100px;
+}
+    
+/* !ANASAYFA END */
+
+/* !HAKKIMIZDA START */
+
+/* bölüm1 */
+
+.bölüm1{
+    display: inline-flex;
+    margin: 20px;
+}
+
+
+.hakkımızda1 {
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+   
+}
+.r1{
+    width: 500px;
+    height: 500px;
+
+}
+.hakkımızda2{
+    margin-top: 120px;
+}
+
+
+
+.hakkımızda2 h1{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 150;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin:auto;
+
+
+    font-size: 80px;
+    display: flex;
+    justify-content: right;
+    margin-right: 1rem;
+    }
+    .hakkımızda2 h2{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 150;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin:auto;
+    }
+    /* bölüm 1 */
+
+
+    /* !bölüm2 */
+
+    .bölüm2{
+        display: inline-flex;
+        margin-top: 50px;
+        margin: 20px;
+    }
+    .hakkımızda3 h1{
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 150;
+        font-size: 100px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        margin-top: 100px;
+
+    }
+    .hakkımızda3 h2{
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 150;
+        font-size: 30px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        white-space: pre-line;
+    }
+    .hakkımızda4 img{
+        width: 500px;
+        height: 600px;
+        margin: 20px;
+    }
+    /* !bölüm2 */
+
+    /* !bölüm3 */
+    .bölüm3{
+        display: inline-flex;
+        margin-top: 50px;
+        margin: 20px;
+        border: 3px solid darkred;
+    }
+    .hakkımızda6 h1{
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 150;
+        font-size: 100px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        margin-top: 100px;
+
+    }
+    .hakkımızda6 h2{
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 150;
+        font-size: 30px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        white-space: pre-line;
+    }
+    .hakkımızda5 img{
+        width: 500px;
+        height: 600px;
+        margin: 20px;
+    }
+    /* !bölüm3 */
+    
+    /* ! Menü */
+    .menü{
+        display: flex;
+    }
+
+    .menü h1{
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 150;
+        font-size: 200px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        
+        border-bottom: 3px solid white; 
+    }
+
+    /* !pilavsebze menü */
+    .pilavsebze{
+        text-align: center;
+       margin-top: 30px;
+    }
+
+    .pilavsebze h2{
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 150;
+        font-size: 50px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        border-bottom: 3px solid white;  
+        list-style-type: none;
+
+    }
+    .pilavsebze li{
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 25px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        list-style-type: none;
+
+        margin-top: 20px;
+    }
+    .pilavsebzefoto{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .pilavsebzefoto img{
+        width:60%;
+        margin: auto;
+        
+
+    }
+    /* !pilavsebze menü */
+
+    /* !aperatif menü */
+
+    .aperatif{
+        display: inline-flex;
+    }
+    .aperatif h2{
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 150;
+        font-size: 50px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        border-bottom: 3px solid white;  
+        list-style-type: none;
+
+    }
+    
+    .aperatif .udon{
+        margin-left: 400px;
+    }
+.aperatif .noodle {
+    margin-left: 400px;
+}
+.aperatif .noodle li{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 25px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        list-style-type: none;
+
+        margin-top: 20px;
+
+}
+.aperatif .udon li{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 25px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        list-style-type: none;
+
+        margin-top: 20px;
+}
+.tavuknoodle{
+    display: flex;
+    margin-top: 30px;
+}
+.tavuknoodle img{
+    width: 60%;
+    margin: auto;
+}
+/* !aperatif menü */
+
+/* !rawbar menü */
+
+.rawbar {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.rawbar .carpaccio h2{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 50px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        border-bottom: 3px solid white;  
+        list-style-type: none;
+}
+.rawbar .sashimi h2{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 50px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        border-bottom: 3px solid white;  
+        list-style-type: none;
+}
+.rawbar .maki h2{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 50px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        border-bottom: 3px solid white;  
+        list-style-type: none;
+}
+.rawbar .sashimi{
+    margin-left: 60px;
+}
+.rawbar .maki{
+    margin-left: 60px;
+}
+
+.rawbar .carpaccio li{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 25px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        list-style-type: none;
+
+        margin-top: 20px;
+}
+.rawbar .sashimi li{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 25px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        list-style-type: none;
+
+        margin-top: 20px;
+}
+.rawbar .maki li{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 25px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        list-style-type: none;
+
+        margin-top: 20px;
+}
+
+.somonkarpaçyo{
+    display: flex;
+    margin-top: 30px;
+}
+
+.somonkarpaçyo img{
+    width: 80%;
+    margin: auto;
+}
+/* !rawbar menü */
+
+
+/* ! uramaki roll*/
+
+.uramakiroll{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.uramakiroll h2{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 50px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        border-bottom: 3px solid white;  
+        list-style-type: none;
+}
+.uramakiroll li{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 25px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        list-style-type: none;
+
+        margin-top: 30px;
+
+}
+.uramakirollfoto{
+    display: flex;
+    margin-top: 30px;
+}
+.uramakirollfoto img{
+    width: 80%;
+    margin: auto;
+}
+/* !uramaki roll */
+
+/* !salatalar */
+.salatalar{
+    text-align: center;
+    margin-top: 30px;
+}
+.salatalar h2{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 50px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        border-bottom: 3px solid white;  
+        list-style-type: none;
+}
+.salatalar li{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 25px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        list-style-type: none;
+
+        margin-top: 30px;
+}
+.saladresim{
+    display: flex;
+    margin-top: 30px;
+}
+.saladresim img{
+    width: 100%;
+    margin: auto;
+    border: 3px solid darkred;
+}
+/* !salatalar */
+
+/* !kokteyl menü */
+
+.kokteylmenü{
+    display: flex;
+    
+}
+
+
+.kokteylmenü h1{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 150;
+        font-size: 100px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        
+        border-bottom: 3px solid white; 
+}
+.kokteylmenü1 .video{
+    width: 50%;
+}
+
+.kokteylmenü1 .baslık h2{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 50px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        border-bottom: 3px solid white;  
+        list-style-type: none;
+}
+.kokteylmenü1{
+    border: 4px solid darkred;
+    text-align: center;
+}
+.kokteylmenü1 .içindekiler h2{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 40px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+}
+/* !kokteyl menü */
+/* !harita */
+
+.harita{
+    height: 500px;
+    border: 3px solid darkred;
+    margin: auto;
+}
+.harita iframe{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.haritabaslık{
+    
+    text-align: center;
+}
+
+.haritabaslık h1{
+    font-size: 100px;
+ font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 20px;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 60px;
+  padding-top: 150px;
+  
+}
+.ulas h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin:auto;
+    list-style-type: none;
+    margin-top: 30px;
+    padding-top:15px ;
+    padding-left: 30px;
+    margin-left: 220px;
+}
+
+
+.ulas .input{
+    margin-top: 50px;
+    margin-left: 400px;
+    
+}
+  
+
+.ulas  .input form input{
+    
+        width: 600px; 
+        height: 60px; 
+        margin-bottom: 15px; 
+        padding: 10px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        font-size: 16px; 
+        margin: auto;
+        color: darkred;
+        background-color: gray;
+        margin-right: 300px;
+        
+        
+           
+    
+}
+.ulas .input form ::placeholder{
+    color: red;
+}
+
+
+
+.ulas  .input form button{
+    background-color: gray;
+    color: darkred;
+    margin-left: 250px;
+    border: 4px solid darkred;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 500) and (max-width: 900px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    }
+
+    @media only screen and (min-width: 500px)and (max-width: 900px) {
+        .logo img {
+            height: 100px; 
+        }
+    
+        .header .navbar a {
+            margin: 0 10px; 
+            font-size: 10px; 
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .header .navbar .active,
+        .header .navbar a:hover {
+            padding-bottom: 0.2rem; 
+        }
+        .anasayfa .content h3 {
+            font-size: 30px; 
+            letter-spacing: 5px; 
+            padding-top: 50px;
+             
+            padding-left: 5px; 
+            text-align: center;
+            
+        }
+        
+        .anasayfa {
+            
+            height: 250px; 
+            background : url(otel\ resim/yemek7.jpg) ;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+        
+        .anasayfa .content {
+            max-width: 100%; 
+            padding: 10px; 
+        }
+        
+        .bursa h2 {
+            font-size: 20px; 
+            letter-spacing: 5px; 
+            text-align: center; 
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .bursa1 h3 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 150;
+            font-size: 20px; 
+            letter-spacing: 1px; 
+            margin: auto;
+            text-align: center;
+            white-space: pre-line;
+        }
+        
+        .resim2 {
+            width: 100%;
+            height: 0;
+            padding-bottom: 40%; 
+            background: url(otel\ resim/yemek10.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: 20px; 
+        }
+        
+        .bursa2 {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            border: 3px solid darkred;
+            margin-top: 10px; 
+        }
+        
+        .bursa2 p {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 150;
+            font-size: 20px;
+            letter-spacing: 1px; 
+            margin: auto;
+            white-space: pre-line;
+        }
+        .iletisim h1 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 150;
+            font-size: 30px; 
+            font-style: normal;
+            text-align: center; 
+            margin: 20px 0; 
+        }
+        
+        /* Bursa2 resim stili */
+        .bursa2 img {
+            max-width: 100%; 
+            height: auto; 
+            margin-bottom: 10px; 
+            margin-top: 10px;
+            margin-right: 10px; 
+            transition: transform 0.3s ease;
+        }
+        
+        /* Hover efekti */
+        .bursa2 img:hover {
+            transform: scale(1.1);
+        }
+        .iletisim h1 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 150;
+            font-size: 30px;
+            font-style: normal;
+        }
+        
+        /* Alt çizgi stili */
+        .bilgiler .iletisim h1::after {
+            content: "";
+            display: block;
+            width: 100%; 
+            height: 2px;
+            background-color: whitesmoke;
+            margin-top: 10px;
+        }
+        
+        /* Bilgiler bölümü stil */
+        .bilgiler {
+            display: flex;
+            flex-direction: column; 
+            justify-content: space-between;
+        }
+        
+        /* Çalışma saatleri başlık stili */
+        .calisma-saatleri h2 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 100;
+            font-size: 30px; 
+            font-style: normal;
+        }
+        
+        /* Çalışma saatleri alt çizgi stili */
+        .bilgiler .calisma-saatleri h2::after {
+            content: "";
+            display: block;
+            width: 100%; 
+            height: 2px;
+            background-color: whitesmoke;
+            margin-top: 10px;
+        }
+        
+        /* Sosyal medya ikonları */
+        .instagram img,
+        .facebook img {
+            width: 20px;
+            height:20px;
+            margin-top:20px; 
+            margin: auto; 
+        }
+        .bölüm1 {
+            display: flex;
+            flex-wrap: wrap; 
+            margin: 10px; 
+        }
+        
+        .hakkımızda1,
+        .r1 {
+            width: 100%; 
+            height: auto; 
+            margin: 10px; 
+            padding-right: 15px;
+        }
+        
+        .hakkımızda2 {
+            margin-top: 20px; 
+        }
+        .hakkımızda2 h1 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 150;
+            font-size: 40px; 
+            font-style: normal;
+            letter-spacing: 2px;
+            margin: auto;
+            text-align: right; 
+            margin-right: 1rem;
+        }
+        
+        .hakkımızda2 h2 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 150;
+            font-size: 20px; 
+            font-style: normal;
+            letter-spacing: 2px;
+            margin: auto;
+        }
+        .bölüm2 {
+            display: flex;
+            flex-wrap: wrap; 
+            margin-top: 20px; 
+            margin: 10px; 
+        }
+        
+        .hakkımızda3 h1 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 150;
+            font-size: 60px; 
+            font-style: normal;
+            letter-spacing: 2px;
+            margin: auto;
+            margin-top: 40px; 
+            text-align: center; 
+        }
+        
+        .hakkımızda3 h2 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 150;
+            font-size: 20px; 
+            font-style: normal;
+            letter-spacing: 2px;
+            margin: auto;
+            white-space: pre-line;
+            text-align: center; 
+        }
+        
+        .hakkımızda4 img {
+            width: 100%; 
+            max-width: 500px; 
+            height: auto; 
+            margin: 10px; 
+            padding-right: 15px;
+        }
+        .bölüm3 {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px; 
+            margin: 10px; 
+            border: 3px solid darkred;
+            padding: 10px; 
+            box-sizing: border-box; 
+        }
+        
+        .hakkımızda6 h1 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 150;
+            font-size: 60px; 
+            font-style: normal;
+            letter-spacing: 2px;
+            margin: auto;
+            margin-top: 40px;
+            text-align: center; 
+        }
+        
+        .hakkımızda6 h2 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 150;
+            font-size: 20px; 
+            letter-spacing: 2px;
+            margin: auto;
+            white-space: pre-line;
+            text-align: center;
+        }
+        
+        .hakkımızda5 img {
+            width: 100%; 
+            max-width: 500px; 
+            height: auto; 
+            margin: 10px; 
+            padding-right: 15px;
+        }
+        .menü {
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+        }
+        
+        .menü h1 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 150;
+            font-size: 60px; 
+            font-style: normal;
+            letter-spacing: 2px;
+            margin: auto;
+            border-bottom: 2px solid white; 
+        }
+        .pilavsebze {
+            text-align: center;
+            margin-top: 20px; 
+        }
+        
+        .pilavsebze h2 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 150;
+            font-size: 30px;
+            font-style: normal;
+            letter-spacing: 2px;
+            margin: auto;
+            border-bottom: 2px solid white; 
+        }
+        
+        .pilavsebze li {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 100;
+            font-size: 18px; 
+            font-style: normal;
+            letter-spacing: 2px;
+            margin: auto;
+            margin-top: 10px; 
+        }
+        
+        .pilavsebzefoto {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .pilavsebzefoto img {
+            width: 100%; 
+            max-width: 400px; 
+            margin: 10px auto; 
+        }
+        .aperatif {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .aperatif h2 {
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 150;
+            font-size: 30px; 
+            font-style: normal;
+            letter-spacing: 2px;
+            margin: auto;
+            border-bottom: 2px solid white; 
+            list-style-type: none;
+        }
+        
+        .aperatif .udon,
+        .aperatif .noodle {
+            margin-left: 20px; 
+        }
+        .aperatif .noodle li,
+.aperatif .udon li {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 18px; 
+    font-style: normal;
+    letter-spacing: 2px;
+    margin: auto;
+    list-style-type: none;
+    margin-top: 10px; 
+    margin-right: 20px;
+}
+
+.tavuknoodle {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.tavuknoodle img {
+    width: 100%; 
+    max-width: 400px; 
+    margin: 10px auto; 
+}.rawbar {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20px; 
+    margin-left: 0; 
+}
+.rawbar .carpaccio h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 30px; 
+    font-style: normal;
+    letter-spacing: 2px;
+    margin: auto;
+    border-bottom: 2px solid white; 
+    list-style-type: none;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+.rawbar .sashimi li
+ {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 30px; 
+    font-style: normal;
+    letter-spacing: 2px;
+    margin: auto;
+    list-style-type: none;
+    margin-top: 20px; 
+    margin-right:  50px;
+
+}
+.rawbar .maki li{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin: auto;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-right:120px;
+}
+.rawbar .carpaccio h2{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 40px; 
+    font-style: normal;
+    letter-spacing: 2px;
+    margin: auto;
+    border-bottom: 2px solid white; 
+    list-style-type: none;
+    margin-right:80px ;
+}
+.rawbar .sashimi h2
+ {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 40px; 
+    font-style: normal;
+    letter-spacing: 2px;
+    margin: auto;
+    border-bottom: 2px solid white; 
+    list-style-type: none;
+    margin-right:350px ;
+    margin-top: 30px;
+}
+.rawbar .maki h2{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 40px; 
+    font-style: normal;
+    letter-spacing: 2px;
+    margin: auto;
+    border-bottom: 2px solid white; 
+    list-style-type: none;
+    margin-right:380px ;
+    margin-top: 30px;
+}
+.somonkarpaçyo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.somonkarpaçyo img {
+    width: 100%; 
+    max-width: 400px;
+    margin: 10px auto; 
+}
+.kokteylmenü {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.kokteylmenü h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 150;
+    font-size: 40px; 
+    font-style: normal;
+    letter-spacing: 2px;
+    margin: auto;
+    border-bottom: 2px solid white; 
+}
+.kokteylmenü1 .baslık h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 30px; 
+    font-style: normal;
+    letter-spacing: 2px;
+    margin: auto;
+    border-bottom: 2px solid white; 
+    list-style-type: none;
+}
+.kokteylmenü1{
+    border: 4px solid darkred;
+    text-align: center;
+}
+.kokteylmenü1 .içindekiler h2{
+    font-family: "Barlow Condensed", sans-serif;
+        font-weight: 100;
+        font-size: 40px;
+        font-style: normal;
+        letter-spacing: 2px;
+        margin:auto;
+        
+        flex-direction: column;
+}
+.harita {
+    height: 100px; 
+    
+    max-width: 100%;
+    border: 3px solid darkred;
+    margin: auto;
+}
+
+.harita iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.haritabaslık {
+    text-align: center;
+}
+
+/* Başlık boyutu ve diğer stil ayarları */
+.haritabaslık h1 {
+    font-size: 20px; 
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 10px;
+    margin: auto;
+    margin-top: 20px; 
+    margin-left: 20px; 
+    padding-top: 20px; 
+}
+.ulas h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 50;
+    font-size: 10px; 
+    font-style: normal;
+    letter-spacing: 2px;
+    margin: auto;
+    list-style-type: none;
+    margin-top: 15px; 
+    padding-top: 10px; 
+    padding-left: 5px; 
+    margin-right: 10px;
+}
+
+.ulas .input {
+    margin-top: 20px; 
+    margin-left: 20px; 
+}
+.ulas .input form input {
+    width: 100%; 
+    max-width: 300px; 
+    height: 30px; 
+    margin-bottom: 10px; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 14px;
+    color: darkred;
+    background-color: gray;
+    margin: auto;
+}
+
+.ulas .input form ::placeholder {
+    color: red;
+}
+
+.ulas .input form button {
+    background-color: gray;
+    color: darkred;
+    border: 2px solid darkred;
+    border-radius: 8px;
+    margin-top: 10px; 
+    margin-left: 30px;
+   
+}
+}
+    
